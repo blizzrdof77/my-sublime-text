@@ -1,0 +1,11 @@
+[
+
+  {
+    "args": 
+    {
+      "replacements": ["format_comma_list"] 
+    },
+    "command": "reg_replace"
+  }
+  
+]

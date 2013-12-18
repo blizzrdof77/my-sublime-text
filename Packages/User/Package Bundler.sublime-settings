@@ -1,0 +1,11 @@
+{
+	"bundles":
+	{
+		"SuBenjahamPackageBundle":
+		{
+			"ignored_packages":
+			[
+			]
+		}
+	}
+}

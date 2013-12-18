@@ -1,0 +1,10 @@
+[
+
+  {
+    "args": 
+    {
+      "replacements": ["html_split_and_align_A"] 
+    },
+    "command": "reg_replace"
+  }
+]

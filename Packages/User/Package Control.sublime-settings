@@ -1,0 +1,31 @@
+{
+	"installed_packages":
+	[
+		"Alignment",
+		"BracketHighlighter",
+		"Emmet",
+		"FavoriteFiles",
+		"Find Non ASCII Characters",
+		"Front End Snippets",
+		"HTML-CSS-JS Prettify",
+		"HTMLAttributes",
+		"JS Snippets",
+		"Less Tabs",
+		"Monokai Extended",
+		"Open-Include",
+		"Package Reloader",
+		"RegReplace",
+		"SASS Build",
+		"ScopeAlways",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"Syntax Highlighting for Sass",
+		"Tag",
+		"TidyHTML5"
+	],
+	"repositories":
+	[
+		"https://github.com/timdouglas/sublime-less2css"
+	]
+}

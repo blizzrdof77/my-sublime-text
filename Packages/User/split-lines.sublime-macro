@@ -1,0 +1,39 @@
+[
+
+  {
+    "args": 
+    {
+      "replacements": ["html_split_and_align_A"] 
+    },
+    "command": "reg_replace"
+  },
+  {
+    "args": 
+    {
+      "replacements": ["html_split_lines"] 
+    },
+    "command": "reg_replace"
+  },
+  {
+    "args": 
+    {
+      "replacements": ["html_split_fix"] 
+    },
+    "command": "reg_replace"
+  },
+    {
+    "args": 
+    {
+      "replacements": ["html_split_lines_2"] 
+    },
+    "command": "reg_replace"
+  },
+  {
+   "args": 
+   {
+     "replacements": ["remove_trailing_spaces"] 
+   },
+   "command": "reg_replace"
+  }
+  
+]

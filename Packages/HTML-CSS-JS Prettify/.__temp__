@@ -1,0 +1,176 @@
+<style type="text/css">
+  .header-title { font-size:20px; color:#004A8D; text-align:center; margin:17px auto }
+  #accordion {}
+  #accordion p { font-size: 12px; line-height: 17px; border-bottom: 1px solid #ddd; padding-bottom: 7px; margin-bottom: 16px; padding-left: 5px; }
+  #accordion p:last-child { margin-bottom:0; border-bottom:none; }
+  #accordion .panel { font-weight:bold; font-size:1.2em; color:#FFF; display: block; cursor: pointer; position: relative; margin-top: 2px; padding: .5em .5em .5em 1.6em; min-height: 0; }
+  #accordion .panel.green { background: #98AF25; color:#FFF; }
+  #accordion .panel.blue { background:#004A8D; color:#FFF; }
+  #accordion .panel.orange { background:#D8731B; color:#FFF; }
+  #accordion .panel.purple { background:#6E2B8B; color:#FFF; }
+  #accordion .title, #accordion h5 { font-weight:bold; font-size:14px; color:#000; margin-bottom:13px;}
+  #accordion .sub-panel { font-weight:bold; color:#000; }
+  #accordion .content { }
+  #accordion .content .title { font-size:16px; text-align:center; }
+  #accordion .content.green .title { color: #98AF25; }
+  #accordion .content.blue .title { color:#004A8D; }
+  #accordion .content.orange .title { color:#D8731B; }
+  #accordion .content.purple .title { color:#6E2B8B; }
+  #accordion .content p span { display:block; margin-bottom:5px; clear:both; }
+  #accordion .content p span.presenter { font-style:italic; margin-bottom:0px; }
+  #accordion .content p span.position-title { margin-bottom:0; }
+  #accordion .content p span.description { margin-top:8px; }
+  #accordion .col {width: 44%; display: block; float: left; padding: 0 2.5% 3%; border: 1px solid #eee; background: -webkit-linear-gradient(left, #efefef, #f3f3f3); border-radius: 8px; }
+  #accordion .col:first-child {margin-right: 1%; }
+  #accordion .col:last-child { border:none;}
+  #accordion a {text-decoration: underline}
+  #accordion .day {font-size: 19px; margin-left: auto; padding: 4px 20px; text-shadow: 0 1px 0 #ffffff; font-variant: inherit; color: #666; text-align: center; font-weight: normal; }
+  #accordion .ui-icon {display: block; text-indent: -99999px; overflow: hidden; background-repeat: no-repeat; clear: none; float: left; left: -10px; position: relative; }
+</style>
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css">
+<!-- jQuery 1.6.2 is loaded by default for the tab.  Please do not add any other JavaScript libraries, or other versions of jQuery, as they could result in code conflicts and errors -->
+<!-- <script src="http://code.jquery.com/jquery-1.9.1.js"></script>  -->
+<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<h1 class="header-title">Booth Seminar Schedule</h1>
+<div id="accordion">
+
+  <!-- BEGIN green panel -->
+  <h3 class="green panel">Modulation</h3> 
+  <div class="green content">
+    <div class="col tuesday">
+      <h4 class="day">Tuesday</h4>
+      <h5 class="title">Modulation</h5>
+      <p>
+        <span class="time">11:00 - 11:15am</span>
+        <span class="presenter">Bart Powelson</span>
+        <span class="position-title">Director- Commercial A/C Marketing (A/C), Emerson Climate Technologies</span>
+        <span class="email"><a href="mailto:Bart.Powelson@emerson.com" target="_blank">Bart.Powelson@emerson.com</a></span>
+        <span class="description">Through this seminar Emerson Climate Technologies seeks to educate HVACR contractors and professionals on the latest developments in compressor modulation – how each technology works, the key benefits and the applications for which each is best suited.  It is designed to educate contractors and end-users on the value of compressor modulation and its impact to their overall business, as well as present examples of this technology and its success in the field today.</span>
+      </p>
+    </div>
+    <div class="col wednesday">
+      <h4 class="day">Wednesday</h4>
+      <h5 class="title">Variable Speed</h5>
+      <p>
+        <span class="time">2:30 - 2:45pm</span>
+        <span class="presenter">Jake Nielson</span>
+        <span class="position-title">Product Manager</span>
+        <span class="email"><a target="_blank" href="mailto:Jacob.Nielson@Emerson.com">Jacob.Nielson@Emerson.com</a></span>
+        <span class="description">Through this seminar Emerson Climate Technologies seeks to educate HVACR contractors and professionals on the latest in variable speed technology – how the technology works, the key benefits and the applications for which each is best suited.  It is designed to educate contractors and end-users on the value of variable speed technology and its impact to their overall business, as well as present examples of this technology and its success in the field today.</span>
+      </p>
+    </div>
+  </div> <!-- END green panel -->
+
+  <!-- BEGIN orange panel -->
+  <h3 class="orange panel">Refrigerants Panel</h3> 
+  <div class="content orange">
+    <div class="col tuesday">
+      <h4 class="day">Tuesday</h4>
+      <h5 class="title">Refrigerants Panel</h5>
+      <p>
+        <span class="time">2:00 - 3:00pm (Live Webinar)</span>
+        <span class="presenter email" style="font-style:normal">
+          <strong>1.)</strong> <em>Barbara Minor</em> - Senior Technical Flow, DuPont Fluoroproducts - <a href="mailto:barbara.h.minor@dupont.com" target="_blank">barbara.h.minor@dupont.com</a> <br/>
+          <strong>2.)</strong> <em>Mark Spatz</em> - Global Refrigerant Technology Leader, Honeywell's Flourine Products - <a href="mailto:mark.spatz@honeywell.com" target="_blank">mark.spatz@honeywell.com</a> <br/>
+          <strong>3.)</strong> <em>Brett Van Horn, PhD</em> - Global Project Leader, R&D, Arkema Inc. - <a href="mailto:brett.van-horn@arkema.com" target="_blank">brett.van-horn@arkema.com</a> 
+        </span>
+        <span class="description">Our panel will be hosted live at the show by Dr. Rajan Rajendran, vice president of engineering services and sustainability. We've also invited several of the industry's most trusted thought leaders on this subject to join our conversation, which will concentrate on a variety of topics applicable to refrigerants used today and in the future, ranging from selection based on applications, regulatory issues, sustainability and maintenance.</span> 
+      </p>
+    </div>
+    <div class="col wednesday">
+      <h4 class="day">Wednesday</h4>
+      <p> <em>No events scheduled.</em></p>
+    </div>
+  </div> <!-- END orange panel -->
+
+  <!-- BEGIN blue panel -->
+  <h3 class="blue panel">Connectivity</h3> 
+  <div class="content blue">
+    <div class="col tuesday">
+      <h4 class="day">Tuesday</h4>
+      <h5 class="title">Connectivity</h5>
+      <p>
+        <span class="time">3:30 - 3:45pm</span>
+        <span class="presenter">Geoff Godwin</span>
+        <span class="position-title">Vice President, Marketing, White-Rodgers</span>
+        <span class="email"><a href="http://www.linkedin.com/pub/geoffrey-godwin/7/867/4a6" target="_blank">LinkedIn</a></span>
+        <span class="description">Emerson's new internet accessible thermostat brings HVAC control to consumers at an affordable price.  Easy to install, it uses 2 AA batteries and will run on standard 4 wire applications without the need for a “C” wire.  Contractors can also input contact information on the app so they are just a click away if the homeowner has any issues.</span>
+      </p>
+    </div>
+    <div class="col wednesday">
+      <h4 class="day">Wednesday</h4>
+      <h5 class="title">Wi-Fi Connectivity</h5>
+      <p>
+        <span class="time">11:00 - 11:15am</span>
+        <span class="presenter">Geoff Godwin</span>
+        <span class="position-title">Vice President, Marketing, White-Rodgers</span>
+        <span class="email"><a target="_blank" href="http://www.linkedin.com/pub/geoffrey-godwin/7/867/4a6">LinkedIn</a></span>
+        <span class="description">Emerson's new internet accessible thermostat brings HVAC control to consumers at an affordable price.  Easy to install, it uses 2 AA batteries and will run on standard 4 wire applications without the need for a “C” wire.  Contractors can also input contact information on the app so they are just a click away if the homeowner has any issues.</span>
+      </p>
+    </div>
+  </div> <!-- END blue panel -->
+
+  <!-- BEGIN purple panel -->
+  <h3 class="purple panel">Spanish Language Seminars </h3> 
+  <div class="purple content">
+    <div class="col tuesday">
+      <h4 class="day">Tuesday</h4>
+      <h5 class="title">Spanish Language Seminar</h5>
+      <p>
+        <span class="time">4:00 - 4:15pm</span>
+        <span class="presenter">Carlos Obella</span>
+        <span class="position-title">Director, Technical Service and Product Development, Latin America</span>
+        <span class="email"><a href="mailto:carlos.obella@emerson.com" target="_blank">carlos.obella@emerson.com</a></span>
+        <span class="description">Sustainable Technological Trends in the Commercial Refrigeration Industry in Latin America</span>
+      </p>
+      <p>
+        <span class="time">4:20 - 4:35pm</span>
+        <span class="presenter">Giovanni Barletta</span>
+        <span class="position-title">Technical Manager, Andean Region</span>
+        <span class="email"><a href="mailto:giovanni.barletta@emerson.com" target="_blank">giovanni.barletta@emerson.com</a></span>
+        <span class="description">Enhanced Efficiency and More Accurate Pressure and Temperature Control in Supermarkets and C-Stores Installations</span>
+      </p>
+      <p>
+        <span class="time">4:40 - 4:55pm</span>
+        <span class="presenter">Hernando Tarquino</span>
+        <span class="position-title">Sales Manager, Andean Region</span>
+        <span class="email"><a href="mailto:hernando.tarquino@emerson.com" target="_blank">hernando.tarquino@emerson.com</a></span>
+        <span class="description">Sustainability, Efficiency, First Cost, and Connectivity Benefits of Distributed Control Architectures in Commercial Refrigeration</span>
+      </p>
+    </div>
+    <div class="col wednesday">
+      <h4 class="day">Wednesday</h4>
+      <h5 class="title">Spanish Language Seminar</h5>
+      <p>
+        <span class="time">11:30 - 11:45am</span>
+        <span class="presenter">Carlos Obella</span>
+        <span class="position-title">Director, Technical Service and Product Development, Latin America</span>
+        <span class="email"><a target="_blank" href="mailto:carlos.obella@emerson.com">carlos.obella@emerson.com</a></span>
+        <span class="description">Total Environmental Impact Reduction Thanks to Complete Solutions Applications in Hybrid Sub-Critical CO2 Systems</span>
+      </p>
+      <p>
+        <span class="time">11:50am - 12:05pm</span>
+        <span class="presenter">Giovanni Barletta</span>
+        <span class="position-title">Technical Manager, Andean Region</span>
+        <span class="email"><a target="_blank" href="mailto:giovanni.barletta@emerson.com">giovanni.barletta@emerson.com</a></span>
+        <span class="description">Improved Efficiency, Reliability, and Continuity of Operation for Commercial Air Conditioning Applications.</span>
+      </p>
+      <p>
+        <span class="time">12:10 - 12:25pm</span>
+        <span class="presenter">Hernando Tarquino</span>
+        <span class="position-title">Sales Manager, Andean Region</span>
+        <span class="email"><a target="_blank" href="mailto:hernando.tarquino@emerson.com">hernando.tarquino@emerson.com</a></span>
+        <span class="description">Programmable Control Solutions for Commercial Air Conditioning, Industrial, and Precision Systems</span>
+      </p>
+    </div>
+  </div> <!-- END purple panel -->
+
+</div> <!-- END accordion -->
+
+<script type="text/javascript">
+  /* Initialize jQuery Accordion  */
+  $(function() {
+    $( "#accordion" ).accordion({active:false, collapsible:true, heightStyle:"content"});
+  });
+</script>

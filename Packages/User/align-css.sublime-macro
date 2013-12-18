@@ -1,0 +1,18 @@
+[
+
+  {
+    "args": 
+    {
+      "replacements": ["align_css"] 
+    },
+    "command": "reg_replace"
+  },
+{
+    "args": 
+    {
+      "replacements": ["css_new_line_comments"] 
+    },
+    "command": "reg_replace"
+  }
+  
+]

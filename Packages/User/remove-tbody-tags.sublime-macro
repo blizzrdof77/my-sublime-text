@@ -1,0 +1,11 @@
+[
+
+  {
+    "args": 
+    {
+      "replacements": ["html_clean_chrome_formatting"] 
+    },
+    "command": "reg_replace"
+  }
+  
+]

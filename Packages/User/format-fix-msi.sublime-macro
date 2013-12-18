@@ -1,0 +1,23 @@
+[
+  {
+    "args": 
+    {
+      "replacements": ["fix_ms_formatting"] 
+    },
+    "command": "reg_replace"
+  },
+  {
+    "args": 
+    {
+      "replacements": ["fix_ms_formatting_2"] 
+    },
+    "command": "reg_replace"
+  },
+	  {
+    "args": 
+    {
+      "replacements": ["surround_ptags"] 
+    },
+    "command": "reg_replace"
+  }
+]

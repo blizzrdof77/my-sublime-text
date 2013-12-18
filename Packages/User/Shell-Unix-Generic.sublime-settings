@@ -1,0 +1,11 @@
+{
+	"extensions":
+	[
+		".bash_aliases",
+		".bash_functions",
+		"old",
+		"bash-scripts",
+		".bash_completion",
+		"bashrc"
+	]
+}

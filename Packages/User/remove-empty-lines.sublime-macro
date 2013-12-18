@@ -1,0 +1,10 @@
+[
+  {
+    "args": 
+    {
+      "replacements": ["remove_empty_lines"] 
+    },
+    "command": "reg_replace"
+  }
+  
+]

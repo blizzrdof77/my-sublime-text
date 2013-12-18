@@ -1,0 +1,69 @@
+/*  
+  MY KEYBOARD SHORTCUTS (BJW)
+*/
+[
+  /* Reindent */
+  { 
+   "keys": ["super+shift+r"], "command": "reindent" 
+  },
+  /* Convert Csv From Keepass To Passwordstate */
+  { 
+   "keys": ["super+k", "super+p"], "command": "run_macro_file", "args": {"file": "Packages/User/convert-keepass-to-passwordstate-csv.sublime-macro"} 
+  },
+  /* Align CSS */
+  { 
+   "keys": ["super+k", "super+c"], "command": "run_macro_file", "args": {"file": "Packages/User/align-css.sublime-macro"} 
+  },
+  /* Clean And Align Code */
+  { 
+    "keys": ["super+shift+8"], "command": "run_macro_file", "args": 
+    { 
+      "file": "Packages/User/align-code.sublime-macro" 
+    } 
+  },
+    /* Join Passive Tags */
+  { 
+   "keys": ["super+l", "super+l"], "command": "run_macro_file", "args": {"file": "Packages/User/join-passive-tags.sublime-macro"} 
+  },
+
+  /* Remove Empty Lines */
+  { 
+   "keys": ["super+k", "super+l"], "command": "run_macro_file", "args": {"file": "Packages/User/remove-empty-lines.sublime-macro"} 
+  },
+
+  /* Split Lines */
+  { 
+   "keys": ["super+k", "super+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/split-lines.sublime-macro"} 
+  },
+
+  /* Remove Tbody Tags */
+  { 
+    "keys": ["super+shift+1"], "command": "run_macro_file", "args": {"file": "Packages/User/format-fix-msi.sublime-macro"} 
+  },
+
+  /* Fix Ms Formatting */
+  { 
+    "keys": ["super+shift+`"], "command": "run_macro_file", "args": {"file": "Packages/User/remove-tbody-tags.sublime-macro"} 
+  },
+
+  /* Insert Html Break Tag */
+  { 
+    "keys": ["alt+b"], "command": "run_macro_file", "args": {"file": "Packages/User/html-br-insert.sublime-macro"} 
+  },
+    /* Format New Line List to Comma Separated List */
+  { 
+    "keys": ["super+shift+,"], "command": "run_macro_file", "args": {"file": "Packages/User/format-comma-separated-list.sublime-macro"} 
+  },
+
+  /* Join Inline Tags */
+  { 
+    "keys": ["super+shift+i"], "command": "run_macro_file", "args": {"file": "Packages/User/join-inline-tags.sublime-macro"} 
+  },
+  /* Show Snippets */
+  { 
+    "keys": ["super+alt+space"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "}
+  },
+  { "keys": ["alt+shift+u"], "command": "upper_case" },
+  { "keys": ["alt+shift+l"], "command": "lower_case" },
+  { "keys": ["alt+shift+t"], "command": "title_case" }
+]

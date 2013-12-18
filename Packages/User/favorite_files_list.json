@@ -1,0 +1,12 @@
+{
+    "files": [
+        "/Users/bwagner/.bash_aliases"
+    ],
+    "groups": {
+        "Bash": [
+            "/Users/bwagner/.bash_aliases",
+            "/Users/bwagner/.bash_functions"
+        ]
+    },
+    "version": 1
+}

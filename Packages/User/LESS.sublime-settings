@@ -1,0 +1,8 @@
+{
+	"extensions":
+	[
+		"less",
+		"lss"
+	],
+  "color_scheme": "Packages/User/Themes/CSS.tmTheme"
+}

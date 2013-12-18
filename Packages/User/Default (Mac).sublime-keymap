@@ -1,0 +1,71 @@
+/*  
+  MY KEYBOARD SHORTCUTS (BJW)
+*/
+[
+  /* Reindent */
+  { 
+   "keys": ["ctrl+shift+r"], "command": "reindent" 
+  },
+  /* Convert Csv From Keepass To Passwordstate */
+  { 
+   "keys": ["ctrl+k", "ctrl+p"], "command": "run_macro_file", "args": {"file": "Packages/User/convert-keepass-to-passwordstate-csv.sublime-macro"} 
+  },
+  /* Align CSS */
+  { 
+   "keys": ["ctrl+k", "ctrl+c"], "command": "run_macro_file", "args": {"file": "Packages/User/align-css.sublime-macro"} 
+  },
+  /* Clean And Align Code */
+  { 
+    "keys": ["ctrl+shift+8"], "command": "run_macro_file", "args": 
+    { 
+      "file": "Packages/User/align-code.sublime-macro" 
+    } 
+  },
+    /* Join Passive Tags */
+  { 
+   "keys": ["ctrl+l", "ctrl+l"], "command": "run_macro_file", "args": {"file": "Packages/User/join-passive-tags.sublime-macro"} 
+  },
+
+  /* Remove Empty Lines */
+  { 
+   "keys": ["ctrl+k", "ctrl+l"], "command": "run_macro_file", "args": {"file": "Packages/User/remove-empty-lines.sublime-macro"} 
+  },
+
+  /* Split Lines */
+  { 
+   "keys": ["ctrl+k", "ctrl+enter"], "command": "run_macro_file", "args": {"file": "Packages/User/split-lines.sublime-macro"} 
+  },
+
+  /* Remove Tbody Tags */
+  { 
+    "keys": ["ctrl+shift+1"], "command": "run_macro_file", "args": {"file": "Packages/User/format-fix-msi.sublime-macro"} 
+  },
+
+  /* Fix Ms Formatting */
+  { 
+    "keys": ["ctrl+shift+`"], "command": "run_macro_file", "args": {"file": "Packages/User/remove-tbody-tags.sublime-macro"} 
+  },
+
+  /* Insert Html Break Tag */
+  { 
+    "keys": ["alt+b"], "command": "run_macro_file", "args": {"file": "Packages/User/html-br-insert.sublime-macro"} 
+  },
+
+  /* Join Inline Tags */
+  { 
+    "keys": ["ctrl+shift+i"], "command": "run_macro_file", "args": {"file": "Packages/User/join-inline-tags.sublime-macro"} 
+  },
+  /* Show Snippets */
+  { 
+    "keys": ["ctrl+alt+space"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Snippet: "}
+  },
+  /* Show RegEx Input Sequencer */
+  { 
+    "keys": ["alt+r"], "command": "show_overlay", "args": {"overlay": "command_palette", "text": "Reg Replace: RegEx Input Sequencer"
+  }  
+  },
+  /* Convert Text To Various Cases */
+  { "keys": ["alt+shift+u"], "command": "upper_case" },
+  { "keys": ["alt+shift+l"], "command": "lower_case" },
+  { "keys": ["alt+shift+t"], "command": "title_case" }
+]

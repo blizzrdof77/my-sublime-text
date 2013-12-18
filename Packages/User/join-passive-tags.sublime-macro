@@ -1,0 +1,25 @@
+[
+  {
+   "args": 
+   {
+     "replacements": ["proper_br_tags"] 
+   },
+   "command": "reg_replace"
+  },
+  {
+   "args": 
+   {
+     "replacements": ["join_br_tags"] 
+   },
+   "command": "reg_replace"
+  
+  },
+  {
+   "args": 
+   {
+     "replacements": ["join_empty_table_cells"] 
+   },
+   "command": "reg_replace"
+  }
+  
+]
